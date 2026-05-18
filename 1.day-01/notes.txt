@@ -1,0 +1,26 @@
+// Typescript is Javascript syntax for types
+
+// problem statement
+- plus symbol acting anoumously
+- js is loosely typed language
+- compile 
+- warning 
+- js catch it on runtime
+- it a design of js
+
+- we always works in team
+- we donot get what params need to pass
+- we donot get what type of data we pass into function
+- to give types to js , that is ts
+
+// browser
+- 3 languages
+// html
+// css
+// js
+
+>> browser does not understand any language
+>> compiler 
+>> TS 
+-- we write in ts
+-- we compile and js run in browser
