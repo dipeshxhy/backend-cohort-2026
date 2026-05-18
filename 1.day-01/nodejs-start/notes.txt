@@ -1,0 +1,36 @@
+// node js
+
+- not just js on the server
+
+- v8 engine
+// libuv : async I/) layer
+// single thread 
+
+nodejs = libuv + v8
+
+
+// write on top of v8 
+// utils written , module written
+
+
+// core components
+
+1. v8
+- js-> machine code(JIT compilation)
+- manage heap and call stack
+- knows nothing about files, network and timers
+
+2. libuv
+- event loop
+- thread pool
+- os level
+- dns lookup
+
+3. Nodejs bindings (c++)
+- fs.readFile()
+- bridge
+
+=> Full wrapper called nodejs
+
+
+
