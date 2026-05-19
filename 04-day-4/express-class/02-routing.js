@@ -77,6 +77,14 @@ function block_1_basicServer() {
       res.status(204).end();
     });
 
+    app.get('/files/*filepath', (req, res) => {
+      const filePath = req.params.filepath;
+      const { filepath } = req.params;
+      res.json({
+        filepath: filepath,
+      });
+    })
+
     const server = app.listen(0, async () => {
       const port = server.address().port;
       const base = `http://localhost:${port}`;
