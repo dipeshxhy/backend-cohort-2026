@@ -85,6 +85,8 @@ function block_1_basicServer() {
       });
     })
 
+    app.route('/schedule').get().post();
+
     const server = app.listen(0, async () => {
       const port = server.address().port;
       const base = `http://localhost:${port}`;
