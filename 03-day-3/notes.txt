@@ -1,0 +1,22 @@
+// setInterval 
+//fetch
+// async Promises
+// DOM
+
+// when we bring js out of browser
+
+// js engine
+// c++ 
+// libuv(event loop )
+
+-- thread pool
+
+// Nose JS = v8 + c++ + libuv
+
+
+node filename.js
+
+// 1. process
+-- main thread
+
+
