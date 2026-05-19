@@ -1,0 +1,26 @@
+// dist : distributable files
+
+// tsc -p . : to create dist/
+
+// npx gitignore node : to generate gitignore 
+
+// when anything change 
+-- we need to compile
+-- tsc -p .
+
+// then watchers comes
+-- tsc-watch does compile TS
+
+>> "dev": "tsc-watch --onSuccess \"node dist/index.js\""
+-- to run js
+
+## pnpm i express
+// js files comes
+// suppose add files
+// there is no types
+// so when we use no suggestions comes
+
+// so when we used express it say no declaration files
+
+// DT : available types
+// we can install by using @types/express -D

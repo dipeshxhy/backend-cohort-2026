@@ -1,0 +1,8 @@
+{
+  "Region": {
+    "prefix": "reg",
+    "scope": "javascript,typescript,typescriptreact,javascriptreact",
+    "body": ["#region ${1:Description}", "$0", "#endregion"],
+    "description": "Code region for better organization",
+  },
+}
