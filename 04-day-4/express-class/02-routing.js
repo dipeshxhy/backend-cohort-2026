@@ -87,6 +87,10 @@ function block_1_basicServer() {
 
     app.route('/schedule').get().post();
 
+    app.use('/api', () => {
+      // prefetch matching /api/* routes
+    })
+
     const server = app.listen(0, async () => {
       const port = server.address().port;
       const base = `http://localhost:${port}`;
