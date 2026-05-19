@@ -1,0 +1,55 @@
+// client --> server 
+
+// mongoose ODM
+
+// let go in structure
+
+## architecture
+/src
+  app.js
+  controller/ : logic 
+  routes/ : /login, /register, /verify
+  models/ --> schema , structure
+  utils/ : db, some fun
+
+
+## framework style
+// nestjs
+// spring : java 
+
+>> there is strict rule to define proper strc and write your code
+
+// services
+-- cart
+-- order
+-- auth
+-- product
+-- user
+
+/// validation library
+-- zod
+-- arktype
+-- yup
+-- joi
+-- express-validator
+
+/// DTO (Design Pattern)
+--> Data Transfer Object
+--> shape of Data
+--> client side Data
+
+// we need only 
+-- firstname
+--last name
+-- email 
+
+donot take other Data
+
+--> transform this data 
+
+/// token are just long string
+
+
+
+
+
