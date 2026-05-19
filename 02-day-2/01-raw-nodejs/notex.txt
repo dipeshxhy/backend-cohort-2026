@@ -1,0 +1,19 @@
+// dependencies
+
+-- parse url
+-- router : 5 dependencies
+// debug 
+
+// fancy term : dependency tree
+
+// package-lock.json : dependency tree lock version
+
+>> server we can create using this
+
+// fastify : reply
+-- bun
+-- hono
+-- elysia
+
+// typescript comes to define types
+
