@@ -18,3 +18,14 @@ application/json
 /menu/:id
 
 ## 0 is signal to os that any port free assign that
+
+
+## client ---- Server
+
+Server /
+
+when client send request it travels 
+
+response travel to client
+
+// limit 33 lakh limits
