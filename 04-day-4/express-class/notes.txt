@@ -1,0 +1,20 @@
+// end point
+/register
+/login
+
+
+### res.json() does 2 things
+
+// 1. set content type 
+application/json
+// 2. serialize object
+
+==> seriaize object means JSON.stringify()
+
+## query params
+?q=biryani&cost=100
+
+## route params & path params
+/menu/:id
+
+## 0 is signal to os that any port free assign that
