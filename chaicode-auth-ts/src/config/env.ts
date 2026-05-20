@@ -5,6 +5,9 @@ const envSchema = z.object({
     .string()
     .transform((value) => parseInt(value, 10))
     .default(8000),
+  DATABASE_URL: z.url(
+    'Invalid DATABASE_URL. It should be a valid URL pointing to your PostgreSQL database.',
+  ),
 });
 
 function getEnv(env: NodeJS.ProcessEnv) {
