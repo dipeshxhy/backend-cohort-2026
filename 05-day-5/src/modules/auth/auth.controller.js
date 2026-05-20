@@ -10,4 +10,14 @@ const login = async (req, res) => {
   return APIResponse.ok(res, user, 'User logged in successfully');
 };
 
-export { register, login };
+const logout = async (req, res) => {
+  await authServices.logout(req.user.id);
+  return APIResponse.noContent(res, 'User logged out successfully');
+};
+
+const getMe = async (req, res) => {
+  const user = await authServices.getMe(req.user.id);
+  return APIResponse.ok(res, user, 'User profile retrieved successfully');
+};
+
+export { register, login, logout, getMe };

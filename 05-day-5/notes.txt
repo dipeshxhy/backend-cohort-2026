@@ -50,6 +50,54 @@ donot take other Data
 /// token are just long string
 
 
+// Authentication :
+you are the who you are
+
+// Authorization :
+what are allowed 
+
+// RBAC
+// ABAC : Activity based Access
 
 
+// sessions
 
+when user comes store it into db
+
+>> sessions based login
+>> in every time we need to call db
+>> stateful
+>> full control
+
+// 
+when user login , long string generate
+// token 
+// now client need to send this token in every request
+
+// Bearer token : who ever belongs that
+
+// there is secret we need to verify the token 
+
+// token : every random string is token 
+//it has format 
+// xxxx.yyyy.zzzz
+
+// x : header
+// y: payload
+// z : signature
+
+// meta data : about which algo used 
+
+>> JWT: Jsonwebtoken
+// stateless : not store in db
+
+// AcessToken : 15mins
+// RefreshToken = 24 hr
+
+// refreshoken store in db
+
+// accessToken expires
+-- send uniques code 206
+// generate new access and refreshToken
+// store it in db
+and send to client
